@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 192, 200));
+    color: white;
+}
+
+.login {
+    position: relative;
+    top: 0;
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+    opacity: 0.5px;
+}
+
+.formDec {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.uname {
+    padding: 60px 80px 40px 80px;
+}
+
+.pass {
+    padding: 20px 80px 40px 75px;
+}
+
+.logbutton {
+    text-align: center;
+    margin: 30px 130px 50px 130px;
+}
+
+.log {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    background-color: rgb(46, 64, 143);
+    width: 150px;
+    height: 40px;
+}
+
+.log a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.forgotPass, .createAcc {
+    padding: 0 5px 25px 5px;
+    font-size: 17px;
+}
+
+.forgotPass {
+    float: right;
+}
+
+input[type="password"] {
+    margin-left: 4px;
+    width: 305px;
+}
+
+.pass label {
+    letter-spacing: 0.5px;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.0);
+    display: block;
+    border-bottom: 1px solid red;
+    width: 300px;
+    margin-top: 20px;
+}
+
+label {
+    opacity: 0.5px;
+}
+
+.createAcc:hover, .forgotPass:hover {
+    text-decoration: underline;
+}
