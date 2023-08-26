@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="RATHAKRISHNAN M">
+    <meta name="keywords" content="simple quiz, quiz">
+    <meta name="description" content="simple quize web page using html, css and js">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <title>Quize</title>
+    <link rel="icon" href="#">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <!--<li><img src="" alt="Logo doesn't load"></li>-->
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Topics</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p class="welcome">Welcome!</p>
+      <div class="card">
+        <div class="question">
+          <p id="ques"></p>
+        </div>
+        <div class="options">
+          <input type="radio" name="" value="" id="op1"><span id="label1"></span><br><br>
+          <input type="radio" name="" value="" id="op2"><span id="label2"></span><br><br>
+          <input type="radio" name="" value="" id="op3"><span id="label3"></span><br><br>
+          <input type="radio" name="" value="" id="op4"><span id="label4"></span>
+        </div>
+        <div class="pre_next">
+            <button class="prev" id="prev_" onclick="prevQuiz()">prev</button>
+            <button class="next" id="next_" onclick="nextQuiz()">next</button>
+            <a href="score.html"><button class="finish" id="finish_" onclick="viewScore()">finish</button></a>
+        </div>
+      </div>
+    </main>
+    <footer>  
+
+    </footer>
+  </body>
+</html>

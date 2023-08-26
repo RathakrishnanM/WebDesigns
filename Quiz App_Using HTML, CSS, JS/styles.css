@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body 
+
+nav {
+    display: flex;
+    background-color: rgb(25, 49, 79);
+}
+
+nav ul {
+    margin-left: auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    paddIng: 10px;
+    margin: 8px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+li:hover {
+    transition-duration: 0.4s;
+    background-color: rgba(255, 136, 0);
+    border-radius: 5px;
+}
+
+.welcome {
+    margin: 40px 0 40px 40px;
+    color:  rgb(218, 80, 17);
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px rgb(206, 143, 7), 2px 2px 3px orange;
+}
+
+.card {
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 400px;
+    width: 600px;
+}
+
+.question {
+    margin: 20px 20px 0 20px;
+    height: 50px;
+    font-size: 18px;
+    padding: 20px 0 0 20px;
+}
+
+.options {
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 12%;
+    width: 60%;
+}
+
+.prev {
+    margin-left: 50px;
+    padding: 8px 30px 8px 32px;
+
+}
+
+.next {
+    margin-left: 310px;
+    padding: 8px 30px 8px 32px;
+}
+
+.finish {
+    display: none;
+    margin-top: -34px;
+    margin-left: 450px;
+    padding: 8px 30px 8px 30px;
+}
+
+.pre_next a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background: rgb(6, 192, 78);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.options span {
+    margin-left: 5%;
+}
+
+.score_box {
+    margin: auto;
+    margin-top: 26%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(238, 241, 38), rgb(207, 200, 105));
+}
+
+.congrats {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.yourScore {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#correct {
+    color: black;
+    font-weight: bold;
+}
