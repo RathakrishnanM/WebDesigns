@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Maven pro;
+}
+
+
+/* Login page Styling part */
+
+
+
+.loginCard {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_side_image {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 65vh;
+    border-right: none;
+}
+
+.rightArea {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 65vh;
+}
+
+#mainHeading {
+    font-family: Maven pro;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+#welcome {
+    /* margin: 20px auto auto 83px; */
+    text-align: center;
+    font-family: Maven pro;
+    letter-spacing: 1px;
+}
+
+.userName, .password {
+    font-family: Maven pro;
+    margin: 30px auto auto 45px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 230px;
+    font-size: 18px;
+}
+
+.password {
+    width: 230px;
+    margin-bottom: 40px;
+}
+
+input[placeholder] {
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 1.5px solid cyan;
+}
+
+.forgot {
+    margin: -30px 0px 40px 170px;
+}
+
+#new_account {
+    display: inline-block;
+    margin: -19px 0 0 110px;
+}
+
+.forgot, #new_account {
+    display: block;
+    font-size: 13px;
+    color: blue;
+}
+
+.forgot:link {
+    text-decoration: none;
+}
+
+.forgot:active, #new_account {
+    text-decoration: underline;
+}
+
+.createAccount {
+    margin: 15px 0 0 60px;
+}
+
+#sign_in {
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(65, 35, 136);
+}
+
+#block_of_OR {
+    margin: 20px auto auto 80px;
+}
+
+.leftLine, .rightLine {
+    display: inline-block;
+    width: 65px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    margin: 2px
+}
+
+.user-icon, .visible-hide-button {
+    margin-left: -10%;
+    margin-bottom: -2%;
+}
+
+.visible-hide-button {
+    background-color: white;
+    border: none;
+}
+
+.sign_in_icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    margin: 0 10px 0 6px;
+}
+
+.icon img {
+    width: 40px;
+}
+
+#icon_a {
+    margin-top: -2px;
+}
+
+.icon_link:hover {
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 50%;
+}
+
+#login_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    animation-name: images_show;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes images_show {
+    0%  {
+        background-image: url('../Components/images/karagam1.jpg');
+    }
+    25% {
+        background-image: url('../Components/images/bharatham1.jpg');
+    }
+    50%  {
+        background-image: url('../Components/images/poikalkuthurai1.jpg');
+    }
+    75%  {
+        background-image: url('../Components/images/nadagam1.jpg');
+    }
+    100%  {
+        background-image: url('../Components/images/jallikattu1.jpg');
+    }
+}
+
+
+.go-to-home {
+    display: block;
+    border: 1px solid grey;
+    background-color: rgb(65, 35, 136);
+    background-repeat: no-repeat;
+    margin: -5.5% auto 0 auto;
+    padding: 1%;
+    border-radius: 30px;
+    color: white;
+}
+
+
+/* Home Page Styling */
+
+.NavBarSection {
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+/**/
+.navLinks{
+    color: rgb(65, 22, 219);
+    text-decoration: none;
+}
+
+.navLinks:visited {
+    color: rgb(65, 22, 219);
+    text-decoration: none;
+}
+
+.navLinks:hover {
+    text-decoration: underline;
+}
+
+li {
+    display: inline-block;
+    margin: 5px 0 5px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.quoats {
+    text-align: center;
+}
+
+.Header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* .NavBarSection {
+    width: 100%;
+} */
+
+
+
+.HomePageMainHeading {
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.HomePageCardElements {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.HomePageMainCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 1px 1px grey;
+    transition-duration: .5s;
+}
+
+.HomePageMainCards:hover {
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.HomePageMainCards img {
+    width: 100%;
+    height: 28vh;
+}
+
+.HomePageMainCardContent {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: -3px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.GeographicalContent h3 {
+    text-align: center;
+    margin: 1% auto 2% auto;
+}
+
+.GeographicalContent ul li {
+    display: block;
+    margin-bottom: 1%;
+    padding-left: 2%;
+}
+
+.GeographicalContent ul li figure{
+    float: right;
+    font-size: 10px;
+}
+
+.TravelGuidance {
+    width: 100%;
+    height: 42vh;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    margin-top: 3%;
+}
+
+.TravelGuidance h3 {
+    text-align: center;
+    margin: 1% auto;
+}
+
+.TravelGuidance_Explore {
+    display: block;
+    margin: 2% auto;
+}
+
+.TravelGuidance_Content_Area {
+    text-indent: 3%;
+    line-height: 2;
+}
+
+.TravelGuidance_Content_Area figure{
+    float: left;
+    margin-right: 3%;
+    font-size: 10px;
+}
+
+.TravelGuidance_Explore {
+    clear: both;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+    background-color: rgb(95, 48, 206);
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.TravelGuidance_Explore:hover {
+    box-shadow: 2px 2px 2px 2px grey;
+    transition-duration: .1s;
+}
+
+.Blog {
+    display: flex;
+    width: 100%;
+}
+
+.Blog ul {
+    display: block;
+    margin: 0 auto;
+}
+
+.Blog ul li {
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+.BlogCopy {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
